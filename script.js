@@ -24,7 +24,7 @@ window.RufflePlayer.config = {
     "scale": "showAll",
     "forceScale": false,
     "frameRate": 60,
-    "quality": "high",
+    "quality": "best",
     "splashScreen": false,
     "preferredRenderer": null,
     "openUrlMode": "allow",
