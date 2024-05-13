@@ -4,6 +4,10 @@ body {
   margin: 0 auto;
 }
 
+object{
+  margin: 0 auto;
+}
+
 .logo{
   display:flex; flex-direction:column; justify-content:center;
   margin: 0 auto;
