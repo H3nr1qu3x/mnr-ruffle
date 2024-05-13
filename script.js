@@ -7,7 +7,7 @@ window.RufflePlayer.config = {
     // Options affecting files only
     "allowScriptAccess": false, // Polyfill elements have a different default value, see the allowScriptAccess section
     "autoplay": "on",
-    "unmuteOverlay": "visible",
+    "unmuteOverlay": "hidden",
     "backgroundColor": null,
     "wmode": "transparent",
     "letterbox": "fullscreen",
