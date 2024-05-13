@@ -1,8 +1,4 @@
-body{
-    background: #333;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  display:flex; flex-direction:column; justify-content:center;
+  min-height:100vh;
 }
