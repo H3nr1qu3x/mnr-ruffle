@@ -10,15 +10,16 @@
   <meta name="language" content="English">
   <link rel="stylesheet" href="style.css">
   <title>Mini GP</title>
-  <script src="script.js"></script>
-  <noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that
-    supports it.</noscript>
 </head>
-
 <body>
-  <div id='ruffle' class="gameloc"></div>
-  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-  <script id="gabe">swfobject.embedSWF("../mnr-ruffle/game/mnr.swf", 'ruffle', 600, 400);</script>
+    <body>
+        <object>
+            <embed src="game/mnr.swf" width="600" height="400" />
+        </object>
+    
+        <script src="ruffle/ruffle.js"></script>
+    </body>
 </body>
-
+<script src="script.js"></script>
+<noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that supports it.</noscript>
 </html>
