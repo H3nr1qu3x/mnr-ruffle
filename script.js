@@ -9,7 +9,7 @@ window.RufflePlayer.config = {
     "autoplay": "on",
     "unmuteOverlay": "visible",
     "backgroundColor": null,
-    "wmode": "window",
+    "wmode": "transparent",
     "letterbox": "fullscreen",
     "warnOnUnsupportedContent": true,
     "contextMenu": "on",
