@@ -6,7 +6,7 @@ window.RufflePlayer.config = {
 
     // Options affecting files only
     "allowScriptAccess": false, // Polyfill elements have a different default value, see the allowScriptAccess section
-    "autoplay": "auto",
+    "autoplay": "on",
     "unmuteOverlay": "visible",
     "backgroundColor": null,
     "wmode": "window",
@@ -35,5 +35,5 @@ window.RufflePlayer.config = {
     "defaultFonts": {},
     "credentialAllowList": [],
     "playerRuntime": "flashPlayer",
-    "allowFullscreen": false
+    "allowFullscreen": true
 };
