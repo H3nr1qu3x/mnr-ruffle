@@ -1,7 +1,8 @@
 body {
   display:flex; flex-direction:column; justify-content:center;
-  min-height:100vh;
+  min-height: 100vh;
   margin: 0 auto;
+  background-color: #2D2D2D;
 }
 
 object{
